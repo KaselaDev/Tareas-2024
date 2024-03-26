@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.tabla{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(100px, 1fr);
+    grid-template-rows: 100px;
+    grid-gap: 20px;
+    padding: 100px 0;
+}
+.rifa{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(82, 82, 255);
+    color: black;
+    object-fit: cover;
+}
