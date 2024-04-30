@@ -1,0 +1,7 @@
+[
+    {"nombre": "Asado", "precio": 10},
+    {"nombre": "Chorizo", "precio": 15},
+    {"nombre": "Costilla", "precio": 30},
+    {"nombre": "Milanesa", "precio": 25},
+    {"nombre": "Bife", "precio": 20}
+]

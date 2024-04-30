@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Empleados</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #FFDABA;
+        }
+        main{
+            font-family: system-ui, sans-serif;
+        }
+        .empleados{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            justify-items: stretch;
+            align-items: stretch;
+        }
+        .empleado{
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            justify-items: stretch;
+            align-items: stretch;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        .empleadoDatos{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            justify-items: stretch;
+            align-items: stretch;
+            font-weight: bold;
+
+        }
+        .fa-circle-user{
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Empleados</h2>
+        <div class="empleados">
+            <div class="empleado">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="empleadosDatos">
+                    <p>Marta Sosa</p>
+                    <p>Edad: 46</p>
+                    <p>Cocinera</p>
+                </div>
+            </div>
+            <div class="empleado">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="empleadosDatos">
+                    <p>Matias Cardozo</p>
+                    <p>Edad: 21</p>
+                    <p>Gerente</p>
+                </div>
+            </div>
+            <div class="empleado">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="empleadosDatos">
+                    <p>Sofia Carrizo</p>
+                    <p>Edad: 28</p>
+                    <p>Cajera</p>
+                </div>
+            </div>
+            <div class="empleado">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="empleadosDatos">
+                    <p>Fran Garcia</p>
+                    <p>Edad: 23</p>
+                    <p>jefe</p>
+                </div>
+            </div>
+            <div class="empleado">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="empleadosDatos">
+                    <p>Santiago Casellas</p>
+                    <p>Edad: 18</p>
+                    <p>developer</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

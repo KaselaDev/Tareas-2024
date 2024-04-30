@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #FFDABA;
+        }
+        main{
+            font-family: system-ui, sans-serif;
+        }
+        .noti{
+            display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-items: stretch;
+        align-items: stretch;
+        }
+        .mensaje{
+            background-color: white;
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            grid-column-gap: 200px;
+            grid-row-gap: 20px;
+            justify-items: stretch;
+            align-items: stretch;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .fa-circle-user{
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Notificaciones</h2>
+        <div class="noti">
+            <div class="mensaje">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="texto">
+                    <div class="titulo">
+                        <h3>Matias Cardozo | Suc. Grand Bourg</h3>
+                        <div class="asunto">
+                            <p>Asunto: Se acabo el pan | 28/04/2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mensaje">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="texto">
+                    <div class="titulo">
+                        <h3>Matias Cardozo | Suc. Grand Bourg</h3>
+                        <div class="asunto">
+                            <p>Asunto: Nos robaron | 16/04/2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mensaje">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="texto">
+                    <div class="titulo">
+                        <h3>Matias Cardozo | Suc. Grand Bourg</h3>
+                        <div class="asunto">
+                            <p>Asunto: Se rompio el vidrio | 15/04/2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mensaje">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="texto">
+                    <div class="titulo">
+                        <h3>Matias Cardozo | Suc. Grand Bourg</h3>
+                        <div class="asunto">
+                            <p>Asunto: Nos queda poca lechuga y tomate | 09/04/2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
